@@ -1,0 +1,75 @@
+#content {
+min-width: 1600px;
+margin: 0 auto;
+}
+#background {
+ height: 725px;
+ background-color: black;
+}
+header{
+    background-color:black;
+}
+nav a:hover {
+    background-color:white;
+    color: black
+}
+.book, .join {
+    background-color:red;
+    color:orange;
+}
+.book:hover, .join:hover{
+    background-color:black;
+    color:orange;
+    text-decoration: none;
+}
+.msg{
+    background-color:black;
+}
+footer{
+    background-color:blue;
+}
+nav a {
+    text-align: center;
+    color:red;
+    text-decoration: none;
+}
+.home-title{
+    color:black;
+}
+h4{
+    color:red;
+}
+
+.msg h2 {
+color:lightcoral;
+}
+.msg p{
+color:aqua;
+}
+footer{
+color:black;
+}
+footer a{
+color:black;
+text-decoration: none;
+}
+footer a:hover{
+color: black;
+}
+.card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
