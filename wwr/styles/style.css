@@ -16,45 +16,58 @@ nav a:hover {
 .book, .join {
     background-color:red;
     color:orange;
+    text-align: center;
 }
 .book:hover, .join:hover{
     background-color:black;
     color:orange;
     text-decoration: none;
+    text-align: center;
 }
 .msg{
     background-color:black;
+    text-align: center;
 }
 footer{
     background-color:blue;
+    text-align: center;
 }
 nav a {
     text-align: center;
     color:red;
     text-decoration: none;
+    text-align: center;
 }
 .home-title{
     color:black;
+    text-align: center;
+    text-align: center;
 }
 h4{
     color:red;
+    text-align: center;
 }
 
 .msg h2 {
 color:lightcoral;
+text-align: center;
 }
 .msg p{
 color:aqua;
+text-align: center;
 }
 footer{
 color:black;
+text-align: center;
 }
 footer a{
 color:black;
 text-decoration: none;
+text-align: center;
 }
 footer a:hover{
 color: black;
+text-align: center;
 }
 .card-img {
     display: block;
