@@ -1,10 +1,13 @@
 #content {
-min-width: 1600px;
-margin: 0 auto;
+    min-width: 1600px;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #background {
- height: 725px;
- background-color: black;
+    height: 725px;
+    background-color: black;
 }
 header{
     background-color:black;
@@ -13,10 +16,20 @@ nav a:hover {
     background-color:white;
     color: black
 }
+.titles{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
 .book, .join {
-    background-color:red;
+    background-color:white;
     color:orange;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:black;
@@ -25,23 +38,28 @@ nav a:hover {
     text-align: center;
 }
 .msg{
-    background-color:black;
+    background-color:gray;
     text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
-    background-color:blue;
+    background-color:green;
     text-align: center;
+    margin-top: 200px;
 }
 nav a {
     text-align: center;
     color:red;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }
 .home-title{
     color:black;
     text-align: center;
-    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 10px;
 }
 h4{
     color:red;
@@ -53,32 +71,44 @@ color:lightcoral;
 text-align: center;
 }
 .msg p{
-color:aqua;
-text-align: center;
+    color:aqua;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
-color:black;
-text-align: center;
+    color:black;
+    text-align: center;
+    padding: 25px 50px;
 }
 footer a{
-color:black;
-text-decoration: none;
-text-align: center;
+    color:black;
+    text-decoration: none;
+    text-align: center;
 }
 footer a:hover{
-color: black;
-text-align: center;
+    color: black;
+    text-align: center;
 }
 .card-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 10px solid #d9c2a3;
+}
+.centering{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 .icon {
     width: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -87,3 +117,31 @@ footer p {
 footer p a:hover {
     text-decoration: underline;  
 }
+body {
+    background-color: #fcfbfb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+#logolink {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+main section img {
+    box-sizing: border-box;
+}
+.hello{
+    text-align: left;
+    background-color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
